@@ -1,0 +1,9 @@
+package lista2.Exercicio1;
+
+public class Gerente extends Funcionario{
+
+    @Override
+    public double calcularSalario() {
+        return salarioBase + (salarioBase * 0.45);
+    }
+}
